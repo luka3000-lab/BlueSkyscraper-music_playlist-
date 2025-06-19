@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F0F0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/blue_skyscraper"
+            android:textColor="#039BE5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#18FFFF"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:backgroundTint="#6200EE"
+                android:hint="@string/song_title"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#18FFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/editArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:autofillHints=""
+                android:backgroundTint="#6200EE"
+                android:hint="@string/artist_name"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#18FFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/editRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:autofillHints=""
+                android:backgroundTint="#6200EE"
+                android:hint="@string/rating_1_5"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#18FFFF"
+                tools:ignore="TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/editComment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:autofillHints=""
+                android:backgroundTint="#6200EE"
+                android:hint="@string/comment"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#81D4FA"
+                tools:ignore="TextContrastCheck" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#4CAF50"
+            android:text="@string/add_to_playlist"
+            android:textColor="#263238" />
+
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:backgroundTint="#2196F3"
+            android:text="@string/view_playlist"
+            android:textColor="#212121" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#B00020"
+            android:text="@string/exit_app"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">blue Skyscraper</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="rating_1_5">Rating (1-5)</string>
+    <string name="comment">Comment</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+    <string name="view_playlist">View Playlist</string>
+    <string name="exit_app">Exit App</string>
+    <string name="show_playlist">Show Playlist</string>
+    <string name="average_rating">Average Rating</string>
+    <string name="back_to_main">Back to Main</string>
+    <string name="details_will_appear_here">Details will appear here...</string>
+    <string name="blue_skyscraper">Blue Skyscraper</string>
+</resources>
